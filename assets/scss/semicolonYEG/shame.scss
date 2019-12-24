@@ -1,0 +1,44 @@
+.logo {
+  position: absolute;
+
+  @include media-breakpoint-up(lg) { 
+    height: 170px !important;
+    width: 160px !important;
+  }
+
+  @include media-breakpoint-between(sm, lg) { 
+    height: 130px;
+    width: 110px;
+  }
+
+
+  @include media-breakpoint-down(sm) { 
+    height: 120px;
+    width: 110px;
+  }
+
+  background-color: black;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+
+  .logo-container {
+    color: white;
+    font-family: $font-family-sans-serif-2;
+
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    letter-spacing: .1rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+      line-height: 1.7rem;
+      letter-spacing: .2rem;
+    }
+    
+    .semicolon {
+      color: $primary;
+    }
+  }
+}

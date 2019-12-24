@@ -1,0 +1,13 @@
+.navbar-expand-md {
+  .navbar-nav {
+    .nav-link {
+      @include media-breakpoint-up(lg) { 
+        padding-left: $nav-link-padding-x;
+        padding-right: $nav-link-padding-x;      
+      }
+      @include media-breakpoint-only(md) { 
+        padding: calc(#{$nav-link-padding-y} - .5rem) calc(#{$nav-link-padding-x} - 1rem);
+      }
+    }
+  }
+}
