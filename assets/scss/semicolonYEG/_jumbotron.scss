@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url('/assets/images/landing-image.jpg'); 
+  background-image: url('/assets/images/frontpage-jumbotron.jpg'); 
 
   background-attachment: fixed;
   background-position: bottom center;
@@ -11,18 +11,12 @@
   justify-content: center;
   align-items: center;
 
-  @include media-breakpoint-up(lg) {
-    height: 80vh;
-    min-height: 600px; 
-  }
-
-
   @include media-breakpoint-down(md) {
     background-attachment: scroll;
   }
 
-  @include media-breakpoint-between(md, lg) {
-    height: 70vh;
+  @include media-breakpoint-up(md) {
+    height: 100vh;
     min-height: 600px; 
   }
 
