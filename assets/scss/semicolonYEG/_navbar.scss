@@ -1,4 +1,5 @@
-.navbar-expand-md {
+.navbar {
+  z-index: 1;
   .navbar-nav {
     .nav-link {
       @include media-breakpoint-up(lg) { 
