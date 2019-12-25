@@ -1,0 +1,36 @@
+footer {
+  background-color: $primary;
+  p {
+    color: white;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+
+  .with-border {
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 50px;
+    }
+
+
+    // @include media-breakpoint-between(md, lg) {
+    //   padding-left: px;
+    // }
+
+    @include media-breakpoint-up(md) {
+      border-left: 2px solid white;
+    }
+
+    p {
+      @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
