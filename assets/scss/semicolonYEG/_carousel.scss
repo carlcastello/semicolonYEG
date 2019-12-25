@@ -1,7 +1,7 @@
 .carousel {
   .carousel-inner {
     .carousel-item-content {
-      min-height: 400px;
+      min-height: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -38,7 +38,7 @@
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 40%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%);
 }

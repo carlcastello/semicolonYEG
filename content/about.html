@@ -4,3 +4,7 @@ title: About
 permalink: /about
 layout: innerpage
 ---
+
+{% for context in site.data.about_image_content_grid %}
+  {% include sections/image-content-grid.html context=context %}
+{% endfor %}
