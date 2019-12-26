@@ -37,6 +37,11 @@ sass:
   sass_dir: "assets/scss"
   style: compressed
 
+# Site Vaariables
+address: 2369 29A Avenue NW<br/>Edmonton AB, T6T2B1 
+opening_hours: 9am - 7pm 
+telephone_number: 123-456-7890
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

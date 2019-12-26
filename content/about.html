@@ -3,8 +3,16 @@ title: About
 
 permalink: /about
 layout: innerpage
+
+banner_title: Partials - Includes<br/>with layout
+banner_subtitle: Another vote for partials! I'm needing it a lot on my site.
+banner_image: /assets/images/index/jumbotron.jpg 
 ---
 
 {% for context in site.data.about_image_content_grid %}
   {% include sections/image-content-grid.html context=context %}
 {% endfor %}
+{% capture card_grid_header %}
+  <span class="font-2">Our</span> Members
+{% endcapture %}
+{% include sections/card-grid.html card_grid_header=card_grid_header cards=site.data.about_card_grid %}

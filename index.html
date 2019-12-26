@@ -1,6 +1,10 @@
 ---
 title: Home
 layout: frontpage
+
+banner_title: Partials - Includes<br/>with layout
+banner_subtitle: Another vote for partials! I'm needing it a lot on my site.
+banner_image: /assets/images/index/jumbotron.jpg 
 ---
 
 
@@ -8,69 +12,18 @@ layout: frontpage
   {% include sections/image-content-grid.html context=context %}
 {% endfor %}
 
-<section class="py-5 bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="display-5 text-center"> <span class="font-2">Our</span> Programs</h1>
-      </div>
-    </div>
-    <div class="row mt-4"> 
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="assets/images/our-programs/graphene.png" class="card-img-top">
-          <div class="card-body mt-2">
-            <div class="card-text text-center">
-              <h6>Cryptography</h6>
-              <p>Some quick example text to build on.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="assets/images/our-programs/robot.png" class="card-img-top">
-          <div class="card-body mt-2">
-            <div class="card-text text-center">
-              <h6>Robotics</h6>
-              <p>Some quick example text to build on.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="assets/images/our-programs/smart-house.png" class="card-img-top">
-          <div class="card-body mt-2">
-            <div class="card-text text-center">
-              <h6>IoT</h6>
-              <p>Some quick example text to build on.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="assets/images/our-programs/renewable-energy.png" class="card-img-top">
-          <div class="card-body mt-2">
-            <div class="card-text text-center">
-              <h6>Many more!</h6>
-              <p>Some quick example text to build on.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col-sm-12 text-center">
-        <a class="btn btn-primary">Book Now</a>
-      </div>
+{% capture card_grid_header %}
+  <span class="font-2">Our</span> Programs
+{% endcapture %}
+{% capture card_grid_footer %}
+  <div class="row mt-4">
+    <div class="col-sm-12 text-center">
+      <a class="btn btn-primary">Book Now</a>
     </div>
   </div>
+{% endcapture %}
 
-  <div class="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>  https://www.flaticon.com/packs/future-technology-15</div> 
-</section>
-
+{% include sections/card-grid.html card_grid_header=card_grid_header card_grid_footer=card_grid_footer cards=site.data.home_card_grid %}
 {% include sections/carousel.html title="Testimonials" slides=site.data.home_carousel %}
 
 <section class="py-5 image-content-section">
