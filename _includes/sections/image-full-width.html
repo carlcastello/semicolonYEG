@@ -1,0 +1,26 @@
+<section class="py-4">
+  {% for image_full_width in include.context %}
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-12">
+          <img src="{{ image_full_width.image }}" class="img-fluid">
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-8 offset-md-2">
+          <h1>{{ image_full_width.title }}</h1> 
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-8 offset-md-2">
+            {{ image_full_width.content }}
+          </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-8 offset-md-2">
+          <a class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>
