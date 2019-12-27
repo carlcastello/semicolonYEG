@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   SemicolonYEG is nonprofit after school program to introduce individuals
   from the immense field of computer science and to sponsor indisposed
   students of Edmonton and surrounding areas to achieve higher education stature.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/semicolonYEG"
+url: "https://carlcastello.github.io"
 twitter_username: carlcastello
 github_username:  carlcastello
 
@@ -41,6 +41,8 @@ sass:
 address: 2369 29A Avenue NW<br/>Edmonton AB, T6T2B1 
 opening_hours: 9am - 7pm 
 telephone_number: 123-456-7890
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
