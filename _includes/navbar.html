@@ -7,7 +7,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbar">
-    <ul class="navbar-nav mx-auto">
+    <ul class="navbar-nav mx-auto text-center">
       {% for nav_page in site.data.nav_pages %}
       <li class="{% if page.url == nav_page.page_url %}active{% endif %} nav-item">
           <a class="nav-link" href="{{ nav_page.page_url | relative_url }}">{{ nav_page.page_name }}</a>

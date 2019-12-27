@@ -72,6 +72,7 @@
 
     @include media-breakpoint-down(xs) {
       height: 40vh;
+      min-height: 300px; 
     }
   }
 }

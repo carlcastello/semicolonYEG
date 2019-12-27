@@ -18,11 +18,6 @@ footer {
       padding-left: 50px;
     }
 
-
-    // @include media-breakpoint-between(md, lg) {
-    //   padding-left: px;
-    // }
-
     @include media-breakpoint-up(md) {
       border-left: 2px solid white;
     }
