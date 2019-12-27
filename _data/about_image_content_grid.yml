@@ -1,12 +1,12 @@
 - title: Mission
-  image: /assets/images/index/about-us.jpg
+  image: assets/images/index/about-us.jpg
   orientation: left
   content: Proin maximus nisi eu hendrerit maximus. Class aptent taciti sociosqu ad litora torquent
            per conubia nostra, per inceptos himenaeos. Morbi blandit, leo non lacinia suscipit, dui 
            dui dictum risus, et mollis ante lectus id lorem. Donec dapibus, dui ut placerat tincidunt,
            mi justo lacinia odio, at malesuada mauris mi eget lacus. Proin eros dui
 - title: Vission
-  image: /assets/images/index/about-us.jpg
+  image: assets/images/index/about-us.jpg
   orientation: right
   content: Proin maximus nisi eu hendrerit maximus. Class aptent taciti sociosqu ad litora torquent
            per conubia nostra, per inceptos himenaeos. Morbi blandit, leo non lacinia suscipit, dui 
