@@ -10,7 +10,7 @@ banner_image: assets/images/index/jumbotron.jpg
 ---
 
 {% for context in site.data.about_image_content_grid %}
-  {% include sections/image-content-grid.html context=context %}
+  {% include sections/image-content-grid.html context=context main_header=True %}
 {% endfor %}
 {% capture card_grid_header %}
   <span class="font-2">Our</span> Members
