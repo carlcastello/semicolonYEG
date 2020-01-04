@@ -1,10 +1,16 @@
 - title: Cryptography
-  subtitle: Some quick example text to build on.
+  subtitle: Learn the history and the modern use of
+            ciphers and its importance to modern society.
   image: assets/images/our-programs/graphene.png
 - title: Robotics
-  subtitle: Some quick example text to build on.
+  subtitle: Replicating real world automatons with Legos,
+            Sensors, Servos and Circuitry
   image: assets/images/our-programs/robot.png
-- title: IoT
-  subtitle: Some quick example text to build on.
+- title: Internet of Things
+  subtitle: Solve basic household problems by integrating
+            household devices into a HUB
   image: assets/images/our-programs/smart-house.png
-  
+- title: Web Development
+  subtitle: Develop modern web applications and understand
+            the complex internet infrastructure
+  image: assets/images/our-programs/monitor.png
