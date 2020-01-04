@@ -1,14 +1,21 @@
 - title: Mission
   image: assets/images/index/about-us.jpg
   orientation: left
-  content: Proin maximus nisi eu hendrerit maximus. Class aptent taciti sociosqu ad litora torquent
-           per conubia nostra, per inceptos himenaeos. Morbi blandit, leo non lacinia suscipit, dui 
-           dui dictum risus, et mollis ante lectus id lorem. Donec dapibus, dui ut placerat tincidunt,
-           mi justo lacinia odio, at malesuada mauris mi eget lacus. Proin eros dui
+  content: SemicolonYEG is a non-profit coding academy
+           intended to introduce everyone from the
+           immense field of information technology. We will 
+           primarily serve individuals that wishes to sharpen
+           their critical thinking and problem-solving
+           skills by learning the theoretical and applied
+           introductory computer science concepts through
+           Robotics, Cryptography, Games Development, IoT
+           and many more.
 - title: Vission
   image: assets/images/index/about-us.jpg
   orientation: right
-  content: Proin maximus nisi eu hendrerit maximus. Class aptent taciti sociosqu ad litora torquent
-           per conubia nostra, per inceptos himenaeos. Morbi blandit, leo non lacinia suscipit, dui 
-           dui dictum risus, et mollis ante lectus id lorem. Donec dapibus, dui ut placerat tincidunt,
-           mi justo lacinia odio, at malesuada mauris mi eget lacus. Proin eros dui
+  content: Everyone deserves higher education. SemicolonYEG
+           strives to assist individuals that are limited in
+           their capability to pursue higher education caused
+           by economic burden and unwarranted situation by
+           providing scholarships and educational subsidies
+           in information technology.

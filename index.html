@@ -2,28 +2,25 @@
 title: Home
 layout: frontpage
 
-banner_title: Partials - Includes<br/>with layout
-banner_subtitle: Another vote for partials! I'm needing it a lot on my site.
+banner_title: Let's Explore<br/>Technology Together!!
+banner_subtitle: Not-for-profit Coding Academy
 banner_image: assets/images/index/jumbotron.jpg 
 ---
 
 
 {% for context in site.data.home_image_content_grid %}
-  {% include sections/image-content-grid.html context=context %}
+  {% include sections/image-content-grid.html context=context main_header="True" %}
 {% endfor %}
-
 {% capture card_grid_header %}
   <span class="font-2">Our</span> Programs
 {% endcapture %}
 {% capture card_grid_footer %}
   <div class="row mt-4">
     <div class="col-sm-12 text-center">
-      <a class="btn btn-primary">Book Now</a>
+      <a href="/about" class="btn btn-primary">Learn More</a>
     </div>
   </div>
 {% endcapture %}
-
 {% include sections/card-grid.html card_grid_header=card_grid_header card_grid_footer=card_grid_footer cards=site.data.home_card_grid %}
 {% include sections/carousel.html title="Testimonials" slides=site.data.home_carousel %}
-
 {% include sections/call-to-action.html %}

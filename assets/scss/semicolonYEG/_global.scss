@@ -20,6 +20,10 @@
         justify-content: center;
       }
 
+      @include media-breakpoint-down(md) {
+        padding: 0;
+      }
+
       img {
         @include media-breakpoint-up(lg) { 
           height: 600px;
@@ -120,7 +124,6 @@
 }
 
 .image-content-section {
-  background-image: url('../../assets/images/index/contact-us.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -146,7 +149,7 @@
     height: 100%;
     top: 0;
     background-color: $primary;
-    opacity: .1;
+    opacity: .05;
   }
 
   h1,

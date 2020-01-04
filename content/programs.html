@@ -10,5 +10,7 @@ banner_image: assets/images/index/jumbotron.jpg
 ---
 
 
-{% include sections/image-full-width.html context=site.data.programs_image_full_width %}
+{% for context in site.data.programs_image_full_width %}
+  {% include sections/image-content-grid.html context=context main_header="False" %}
+{% endfor %}
 {% include sections/call-to-action.html %}
