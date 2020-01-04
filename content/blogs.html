@@ -12,7 +12,7 @@ banner_image: assets/images/index/jumbotron.jpg
 <section class="py-5 content-listing">
   <div class="container">
     {% for post in site.posts %}
-      <a href="{{ post.url }}" class="content-link">
+      <a href="{{ post.url | relative_url }}" class="content-link">
         <div class="row my-3">
           <div class="col-md-6">
             <img  src="{{ post.image }}" class="img-fluid" />

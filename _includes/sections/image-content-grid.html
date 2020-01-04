@@ -24,7 +24,7 @@
             {{ include.context.content }}
           </p>
           {% if include.context.button_url %}
-            <a href="{{ include.context.button_url }}" class="btn btn-primary">
+            <a href="{{ include.context.button_url | relative_url }}" class="btn btn-primary">
               {% if include.context.button_text %} {{ include.context.button_text }} {% else %} Learn More {% endif %}
             </a>
           {% endif %}
